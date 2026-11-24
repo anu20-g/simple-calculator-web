@@ -1,0 +1,1 @@
+# Simple Calculator - Team 1\n\nPerform addition, subtraction, multiplication and division through an interactive interface.\n\n## Preview\nOpen `index.html` in any modern web browser.\n

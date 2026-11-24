@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" class="calc-display" readonly>
+        <div class="keys">
+            <button class="btn-op" onclick="clearDisplay()">C</button>
+            <button class="btn-op" onclick="delChar()">DEL</button>
+            <button class="btn-op" onclick="appendOp('%')">%</button>
+            <button class="btn-op" onclick="appendOp('/')">/</button>
+
+            <button onclick="appendNum('7')">7</button>
+            <button onclick="appendNum('8')">8</button>
+            <button onclick="appendNum('9')">9</button>
+            <button class="btn-op" onclick="appendOp('*')">*</button>
+
+            <button onclick="appendNum('4')">4</button>
+            <button onclick="appendNum('5')">5</button>
+            <button onclick="appendNum('6')">6</button>
+            <button class="btn-op" onclick="appendOp('-')">-</button>
+
+            <button onclick="appendNum('1')">1</button>
+            <button onclick="appendNum('2')">2</button>
+            <button onclick="appendNum('3')">3</button>
+            <button class="btn-op" onclick="appendOp('+')">+</button>
+
+            <button onclick="appendNum('0')">0</button>
+            <button onclick="appendNum('.')">.</button>
+            <button class="btn-equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
